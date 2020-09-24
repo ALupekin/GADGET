@@ -129,8 +129,8 @@ p {color: aliceblue;}
 #menu_l_6 {position: fixed;top: 500px;left: -638px; z-index: 10;}
 #menu_l_7 {position: fixed;top: 540px;left: -638px; z-index: 9;}
 #menu_l_8 {position: fixed;top: 580px;left: -638px; z-index: 8;}
-#menu_l_9 {position: fixed;top: 900px;left: -638px; z-index: 8;}
-#menu_l_10{position: fixed;top: 850px;left: -638px; z-index: 9;}
+#menu_l_9 {position: fixed;top: 850px;left: -638px; z-index: 8;}
+#menu_l_10{position: fixed;top: 900px;left: -638px; z-index: 9;}
   #menu_l_1 {top: 300px;}
   #menu_l_2 {top: 340px;}
   #menu_l_3 {top: 380px;}
@@ -139,8 +139,8 @@ p {color: aliceblue;}
   #menu_l_6 {top: 500px;}
   #menu_l_7 {top: 540px;}
   #menu_l_8 {top: 580px;}
-  #menu_l_9 {top: 620px;}
-  #menu_l_10{top: 660px;}}
+  #menu_l_9 {top: 660px;}
+  #menu_l_10{top: 620px;}}
 
 #menu_l_0:hover,
 #menu_l_1:hover,
@@ -154,6 +154,20 @@ p {color: aliceblue;}
   left: 0px;
   transition: 2.5s;
 }
+@media(min-width: 768px) and (max-width: 1200px){
+#menu_l_0:hover,
+#menu_l_1:hover,
+#menu_l_2:hover,
+#menu_l_3:hover,
+#menu_l_4:hover,
+#menu_l_5:hover,
+#menu_l_6:hover,
+#menu_l_7:hover,
+#menu_l_8:hover{
+  left: -638px;
+  
+  
+}} 
 
 .menu,
 .menu ul,
@@ -181,7 +195,23 @@ p {color: aliceblue;}
      -moz-border-radius: 5px;
           border-radius: 5px;
 }
-@media(min-width: 768px) and (max-width: 1200px){.menu {width: 768px;}}
+@media(min-width: 768px) and (max-width: 1200px){.menu {width: 768px;}
+
+
+
+.menu:hover{
+  background: -webkit-linear-gradient(top, #000000 0%, #fd0202 45%, #000000 100%);
+  background:    -moz-linear-gradient(top, #000000 0%, #fd0202 45%, #000000 100%);
+  background:      -o-linear-gradient(top, #000000 0%, #fd0202 45%, #000000 100%);
+  background:     -ms-linear-gradient(top, #000000 0%, #fd0202 45%, #000000 100%);
+  background:         linear-gradient(top, #000000 0%, #fd0202 45%, #000000 100%);
+  box-shadow: 0px 0px 15px 2px #fd0202;
+    transition: 1.5s;
+  transform: scale(1.05);
+ 
+}
+
+}
 
 .menu li {
   position: relative;
@@ -348,7 +378,7 @@ p {color: aliceblue;}
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  width: calc(50% - 10px);
+  width: calc(50% - 9px);
   height: auto;
   min-height: 200px;
   background-color: #fff;
@@ -368,22 +398,22 @@ p {color: aliceblue;}
 .item-content{
   width: 100%;
   display: flex;
-height: calc(100% - 30px)
+  height: calc(100% - 30px)
 }
 .item-img{
-background-image: url(../image/no_foto.png);
+  background-image: url(../image/no_foto.png);
   background-size: cover;
   width: 35%;
-background-position: center;
+  background-position: center;
   background-color: red;
   cursor: pointer;
 }
 .item-img:hover{
   position: relative;
   z-index: 22;
- width: 35%;
+  width: 35%;
   height: 100%;
-  transform: scale(1.8);
+  transform: scale(2.5);
   box-shadow: 0px 0px 45px 2px #fd0202;
   transition: 1.5s;
 }
