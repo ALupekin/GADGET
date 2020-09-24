@@ -155,19 +155,14 @@ p {color: aliceblue;}
   transition: 2.5s;
 }
 @media(min-width: 768px) and (max-width: 1200px){
-#menu_l_0:hover,
-#menu_l_1:hover,
-#menu_l_2:hover,
-#menu_l_3:hover,
-#menu_l_4:hover,
-#menu_l_5:hover,
-#menu_l_6:hover,
-#menu_l_7:hover,
-#menu_l_8:hover{
-  left: -638px;
-  
-  
-}} 
+#menu_l_0:hover, #menu_l_1:hover, #menu_l_2:hover, #menu_l_3:hover,
+#menu_l_4:hover, #menu_l_5:hover, #menu_l_6:hover, #menu_l_7:hover,
+#menu_l_8:hover{  left: -638px;}} 
+
+@media(min-width: 100px) and (max-width: 767px){
+#menu_l_0:hover, #menu_l_1:hover, #menu_l_2:hover, #menu_l_3:hover,
+#menu_l_4:hover, #menu_l_5:hover, #menu_l_6:hover, #menu_l_7:hover,
+#menu_l_8:hover{  left: -830px;}} 
 
 .menu,
 .menu ul,
@@ -196,9 +191,6 @@ p {color: aliceblue;}
           border-radius: 5px;
 }
 @media(min-width: 768px) and (max-width: 1200px){.menu {width: 768px;}
-
-
-
 .menu:hover{
   background: -webkit-linear-gradient(top, #000000 0%, #fd0202 45%, #000000 100%);
   background:    -moz-linear-gradient(top, #000000 0%, #fd0202 45%, #000000 100%);
@@ -207,12 +199,19 @@ p {color: aliceblue;}
   background:         linear-gradient(top, #000000 0%, #fd0202 45%, #000000 100%);
   box-shadow: 0px 0px 15px 2px #fd0202;
     transition: 1.5s;
-  transform: scale(1.05);
- 
-}
-
-}
-
+  transform: scale(1);
+ }}
+@media(min-width: 100px) and (max-width: 767px){
+.menu:hover{
+  background: -webkit-linear-gradient(top, #000000 0%, #fd0202 45%, #000000 100%);
+  background:    -moz-linear-gradient(top, #000000 0%, #fd0202 45%, #000000 100%);
+  background:      -o-linear-gradient(top, #000000 0%, #fd0202 45%, #000000 100%);
+  background:     -ms-linear-gradient(top, #000000 0%, #fd0202 45%, #000000 100%);
+  background:         linear-gradient(top, #000000 0%, #fd0202 45%, #000000 100%);
+  box-shadow: 0px 0px 15px 2px #fd0202;
+    transition: 1.5s;
+  transform: scale(1);
+ }}
 .menu li {
   position: relative;
   list-style: none;
