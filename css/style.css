@@ -209,6 +209,7 @@ p {color: aliceblue;}
      -moz-border-radius: 5px;
           border-radius: 5px;
 }
+
 @media(min-width: 768px) and (max-width: 1200px){.menu {width: 768px;}
 .menu:hover{
   background: -webkit-linear-gradient(top, #000000 0%, #fd0202 45%, #000000 100%);
@@ -341,7 +342,7 @@ p {color: aliceblue;}
 .menu ul li a:hover {
   color: coral;
   transform:
-translate(10px, 0); scale(1, 1) transform:
+translate(10px, 0) scale(1, 1) transform:
 translate(10px, 0);
 }
 .menu ul li:last-child a { border: none;}
@@ -487,7 +488,11 @@ translate(-150px, 0);}}
 #i0027      {background-image: url(../image/item2.jpg)}
 #i0027:hover{background-image: url(../image/img1%20copy.jpg)}
 
-
+@media (max-width: 767px){
+  .menu{
+    display: none;
+  }
+}
 
 .item-img a:focus{
   position: relative;
