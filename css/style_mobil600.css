@@ -1,0 +1,48 @@
+@media(min-width: 1300px) and (max-width: 3000px){.header1 {height: 300px}} 
+@media(min-width: 1200px) and (max-width: 1299px){.header1 {height: 280px}} 
+@media(min-width:  900px) and (max-width: 1199px){.header1 {height: 180px}} 
+@media(min-width:  768px) and (max-width:  899px){.header1 {height: 160px}} 
+@media(min-width:  360px) and (max-width:  767px){.header1 {height:  140px}} 
+@media(min-width:  100px) and (max-width:  359px){.header1 {height:  140px}} 
+
+@media(max-width: 500px) and (max-width: 600px) {.menu-mobil li a{ font-weight: 600;padding-left: 20px;font-size: 16px;}}
+@media(max-width: 400px) and (max-width: 499px) {.menu-mobil li a{ font-weight: 500;padding-left: 10px;font-size: 14px;}}
+@media(max-width:   0px) and (max-width: 399px) {.menu-mobil li a{ font-weight: 400;padding-left:  0px;font-size: 12px;}}
+
+@media(max-width: 700px) and (max-width: 768px) {.menu-mobil li{ width: 20vw;padding: 10px, 0px, 10px, 0px; transform: translate(0,-50px)}}
+@media(max-width: 500px) and (max-width: 699px) {.menu-mobil li{ width: 20vw;padding: 10px, 0px, 10px, 0px;}}
+@media(max-width: 400px) and (max-width: 499px) {.menu-mobil li{ width: 20vw;padding: 10px, 0px, 10px, 0px;}}
+@media(max-width:   0px) and (max-width: 399px) {.menu-mobil li{ width: 20vw;padding: 10px, 0px, 10px, 0px;}}
+
+@media(min-width: 1100px) and (max-width: 1200px){.title-name {font-size: 200px; transform: translate(25%, 0px);}}
+@media(min-width: 1000px) and (max-width: 1099px){.title-name {font-size: 170px; transform: translate(25%, 0px);}}
+@media(min-width:  900px) and (max-width:  999px){.title-name {font-size: 160px; transform: translate(25%, 0px);}}
+@media(min-width:  800px) and (max-width:  899px){.title-name {font-size: 150px; transform: translate(25%, 0px);}}
+@media(min-width:  700px) and (max-width:  799px){.title-name {font-size: 140px; transform: translate(25%, -20px);}}
+
+@media(max-width: 500px) and (max-width: 600px) {.item-content{  bottom: 10px;right: 10px;padding: 6px;  width: 100px;}}
+@media(max-width: 400px) and (max-width: 499px) {.item-content{  display: block;}}
+@media(max-width:   0px) and (max-width: 399px) {.item-content{  display: block;}}
+
+
+@media(max-width: 500px) and (max-width: 600px) {
+.shop{  bottom: 10px;right: 10px;padding: 6px;  width: 100px;transform: translate(60vw,17px)}
+.shop:hover{  bottom: 10px;right: 10px;padding: 6px;  width: 100px;transform: translate(60vw,17px)}}
+@media(max-width: 400px) and (max-width: 499px) {.shop{bottom: 10px;right: 10px;padding: 6px;width: 100px;}}
+@media(max-width:   0px) and (max-width: 399px) {.shop{bottom: 10px;right: 10px;padding: 6px;width: 100px;}}
+
+@media(max-width: 500px) and (max-width: 600px) {.description{  transform: translate(35vw,-20px)}}
+@media(max-width: 400px) and (max-width: 499px) {.description{  transform: translate(35vw,-20px)}}
+@media(max-width:   0px) and (max-width: 399px) {.description{  transform: translate(35vw,-20px)}}
+
+@media(max-width: 500px) and (max-width: 600px) {.item-description{ background-color: inherit;transform: translate(3vw,-20px)}}
+@media(max-width: 400px) and (max-width: 499px) {.item-description{ background-color: inherit;transform: translate(3vw,-20px)}}
+@media(max-width:   0px) and (max-width: 399px) {.item-description{ background-color: inherit;transform: translate(3vw,-20px)}}
+
+@media(max-width: 500px) and (max-width: 600px) {.item-img{ width: 95vw;  transform: translate(20vw,0) ;position: relative; z-index; 25;background-size: cover}}
+@media(max-width: 400px) and (max-width: 499px) {.item-img{ width: 95vw;  transform: translate(20vw,0) ;position: relative; z-index; 25;background-size: cover}}
+@media(max-width:   0px) and (max-width: 399px) {.item-img{ width: 95vw;  transform: translate(20vw,0) ;position: relative; z-index; 25;background-size: cover}}
+
+@media(max-width: 500px) and (max-width: 600px) {.item-img{ background-size: cover;background-position: center}}
+@media(max-width: 400px) and (max-width: 499px) {.item-img{ background-size: cover;background-position: center}}
+@media(max-width:   0px) and (max-width: 399px) {.item-img{ background-size: cover;background-position: center}}
